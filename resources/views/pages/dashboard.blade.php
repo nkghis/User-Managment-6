@@ -180,6 +180,12 @@
 @endsection
 
 @push('scripts')
+    <!-- Add this  if you want to use websocket -->
+    <script src="{{ asset('js/app.js') }}"></script>
+
+
+
+
     <script>
         $(document).ready(function() {
             // Javascript method's body can be found in assets/assets-for-demo/js/demo.js
